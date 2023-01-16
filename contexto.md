@@ -12,6 +12,7 @@ Perfis de usuário:
 ● Professor: Para o professor da turma;
 ● Representante: Aluno representante da turma;
 ● Alunos: Alunos.
+
 Funcionalidades:
 ● O professor poderá cadastrar qualquer tipo de usuário (professor, representante ou aluno);
 ● O professor pode incluir novas datas de provas e trabalho

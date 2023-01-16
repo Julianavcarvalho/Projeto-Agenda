@@ -1,13 +1,17 @@
+html {
+  padding: 0;
+  margin: 0;
+  font: 1.2rem "Helvetica", sans-serif;
+}
+
 body {
-  font-family: Helvetica;
-  font-weight: bold;
+  align-items: center;
 }
 
 .layout {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: repeat(auto-fit, 200px);
-  grid-gap: 10px;
+  display: flex;
+  
+
 }
 
 .layout-lista {
@@ -38,12 +42,9 @@ body {
     transform: scale(1.03) rotate(2deg);
   }
   
-  .lista-cartao:last-child {
-    .cartao {
-      &-data {
+.lista-cartao.cartao-data {
         background: limegreen;
-      }
-    } 
+     
   
 }
 
